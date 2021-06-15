@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Adding all the sections tags a fixed Padding */
+
+section{
+    padding : 80px;
+}
+
+/* Creating banner area in CSS*/
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    /* background-image: url('IMG/personal.png');
+    background-size: cover;
+    background-position: right center; */
+}
+
+.banner h2{
+    font-size: 2.5em;
+    color : #444;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.banner h2 span{
+    font-size: 1.2em;
+    color : #efefef;
+}
+
+.banner h3{
+    color : white;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.btn{
+    position: relative;
+    background: #009e66;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    padding : 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 550;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+/* Creating about Me class in CSS */
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2{
+    font-size: 3em;
+    color: #009e66;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx{
+    padding-left: 40px ;
+    text-align: justify;
+}
+
+.proPic{
+    width: 300px;
+    height: 300px;
+}
+
+.contentBx h2{
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    word-spacing: 0.5px;
+}
+
+.heading.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bt{
+    margin-top: 20px;
+}
+
+.w50 {
+    min-width: 30%;
+}
+img{
+    max-width: 100%;
+}
