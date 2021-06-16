@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/ext.js" language="javascript"></script>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font awesome Bootstrap cheat Sheet icons are being used here. -->
     <title>Anshul Chaudhary | Portfolio</title>
 </head>
 <body>
@@ -18,7 +21,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#work">Work</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">contact</a></li>
     </ul>
     </header>
@@ -29,12 +31,13 @@
             <h2>Hello, I'm <br><span>Anshul Chaudhary</span>.</h2>
             <h3>ML Engineer - Web Developer</h3>
             <a href="#about" class="btn">About Me</a>
+            <!-- <img class="front" src="IMG/Front2.png" alt=""> -->
         </div>
     </section>
 
     <!-- About Me Page -->
 
-    <section class="about" id="abut">
+    <section class="about" id="about">
         <div class="heading">
             <h2>About Me</h2>
         </div>
@@ -65,6 +68,166 @@
                 </div>
             </div>
     </section>
+
+    <!-- Creating Services Layout In HTML -->
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <p>Services I offer to my clients</p>
+        </div>
+
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Design CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>Wordpress Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="servicesBx">
+                <i class="fa fa-amazon fa-4x"></i>
+                <h3>ML Engineer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+           <div class="servicesBx">
+                <i class="fa fa-road fa-4x"></i>
+                <h3>AWS Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <!--  <div class="servicesBx">
+                <i class="fa fa-amazon fa-4x"></i>
+                <h3>DEF Devloper</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="servicesBx">
+                <i class="fa fa-amazon fa-4x"></i>
+                <h3>GHI Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- Work Sectoin in HTML -->
+
+    <!-- Testimonial Section in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading white">
+            <h2>Work</h2>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <p>Praveen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Richard Wilson<br>Creative Designer</h3>
+            </div>
+            <div class="workBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design.  Thanks Praveen</p><h3>Joyce K<br>Web Designer (google)</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section in HTML -->
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Get In Touch</h2>
+            <p>Drop a message below</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Available for Freelancing work. Contact me if you have any idea, so that we can implement one together!</p>
+
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <address>C - 404, Alpha-1st <br>Greater Noida, <br>UP, 201308</address>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no:</h3>
+                            <p>6397XXXXX</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                           <p>@gmail.com</p>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+            </div>
+
+            <div class="formBx">
+                <form action="">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" rows="5" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <!-- Creating Footer Layout in HTML -->
+
+     <footer class="copyright">
+
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://github.com/anschy" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="https://twitter.com/AnshulC84417044" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/anshul-chaudhary-2001/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="https://www.instagram.com/rundown_griffin/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+        <p>© 2021, <a href="index.html">Anshul Chaudhary</a>, Allrights reserved</p>
+    </footer>
 
 </body>
 </html>
