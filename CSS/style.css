@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 /* Adding all the sections tags a fixed Padding */
 
@@ -478,6 +480,10 @@ footer a {
     text-transform: uppercase;
     text-align: center;
     color:black
+}
+
+.work .workImg .content .tiles span{
+    color: #EAE9E9;
 }
 
 .work .workImg .content .tiles a{
