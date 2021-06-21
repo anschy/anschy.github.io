@@ -17,7 +17,7 @@
 
     <!-- Creating Menu Tabs & logos at the Top using HTML-->
     <header>
-    <a href="#" class="logo">portfolio</a>
+    <a href="index.html" class="logo">portfolio</a>
 
     <ul class="menu">
         <li><a href="#home" onclick="toggleMenu();">Home</a></li>
@@ -34,7 +34,6 @@
             <h2>Hello, I'm <br><span>Anshul Chaudhary</span>.</h2>
             <h3>ML Engineer - Web Developer</h3>
             <a href="#about" class="btn">About Me</a>
-            <!-- <img class="front" src="IMG/Front2.png" alt=""> -->
         </div>
     </section>
 
@@ -64,8 +63,8 @@
                             <b>Age:</b> 21
                         </div>
                         <div class="bt">
-                            <b>Email:</b> Email<br>
-                            <b>Location:</b> Delhi, India
+                            <b>Email:</b> anshulchoudhary2001@gmail.com<br>
+                            <b>Location:</b> Delhi, India.
                         </div>
                     </div>
                 </div>
@@ -141,33 +140,43 @@
         <div class="workImg">
             <div class="content">
                 <div class="tiles">
+                <span>ML</span>
                  <a href="https://share.streamlit.io/ashish-arya-cs/covdetec/main/CovDetec.py"><h3>Covid Detection using Cough</h3></a>   
                 </div>
                 <div class="tiles">
+                    <span>ML</span>
                     <a href="https://github.com/anschy/Driver-Drowsiness-Detection"><h3>Driver Drowsiness Detection</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>ML</span>
                     <a href="https://github.com/anschy/Cyclone-Detection-Deployed-model"><h3>Cyclone Detection Deployed</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>Web Dev</span>
                    <a href="https://devent.netlify.app/"> <h3>DEV ENTERPRISES</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>Web Dev</span>
                    <a href="https://skincancer.netlify.app/"> <h3>Skincare</h3></a>
                 </div>
                 <div class="tiles">
+                    <span>ML</span>
                    <a href="https://www.kaggle.com/anshulchaudhary/heart-attack-prediction-using-deep-learning-ann"> <h3>Prediction of the Heart Attack</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>ML</span>
                    <a href="https://github.com/anschy/Face-detection-using-SDD"><h3>Face-detection using SSD</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>ML</span>
                    <a href="https://github.com/anschy/Predicting-and-Plotting-Stock-Price-using-LSTM"> <h3>Predicting Google Stock Price</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>Web Dev</span>
                    <a href="https://anschy.github.io/rexxen/"> <h3>Rexxen</h3></a>  
                 </div>
                 <div class="tiles">
+                    <span>Web Dev</span>
                    <a href="https://anschy.github.io/FrontEnd-Challenges/"><h3>Frontend challenges</h3></a>  
                 </div>
             </div>
@@ -195,7 +204,7 @@
                         </div>
                         <div class="text">
                             <h3>Address</h3>
-                            <address>C - 404, Alpha-1st <br>Greater Noida, <br>UP, 201308</address>
+                            <address>Alpha-1st <br>Greater Noida, <br>UP, 201308</address>
                         </div>
                     </div>
 
@@ -205,7 +214,7 @@
                         </div>
                         <div class="text">
                             <h3>Phone no:</h3>
-                            <p>6397XXXXX</p>
+                            <p>+91-6397880383</p>
                         </div>
                     </div>
 
@@ -215,7 +224,7 @@
                         </div>
                         <div class="text">
                             <h3>Email Address</h3>
-                           <p>@gmail.com</p>
+                           <p>anshulchoudhary2001@gmail.com</p>
                         </div>
                     </div>
 
@@ -225,12 +234,12 @@
             </div>
 
             <div class="formBx">
-                <form action="">
+                <form method='POST' data-netlify="true">
                     <h3>Message Me</h3>
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
-                    <textarea name="" id="" rows="5" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Send Message" name="">
+                    <input type="text" name="name" placeholder="Full Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars">
+                    <input type="email" placeholder="Email" name="email" data-rule="email" data-msg="Please enter a valid email">
+                    <textarea name="message" id="" rows="5" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="submit">
                 </form>
             </div>
         </div>
@@ -239,7 +248,6 @@
      <!-- Creating Footer Layout in HTML -->
 
      <footer class="copyright">
-
                     <div class="boxSocial">
                         <div class="icon">
                             <a href="https://github.com/anschy" target="_blank">
