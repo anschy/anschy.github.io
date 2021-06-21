@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="CSS/style.css">
     <script src="JS/ext.js" language="javascript"></script>
 
+    <link rel="icon" href="IMG/favicon.ico">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Font awesome Bootstrap cheat Sheet icons are being used here. -->
+
     <title>Anshul Chaudhary | Portfolio</title>
 </head>
 <body>
@@ -17,11 +20,11 @@
     <a href="#" class="logo">portfolio</a>
 
     <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
     </ul>
     </header>
 
@@ -74,67 +77,104 @@
     <section class="services" id="services">
         <div class="heading white">
             <h2>Services</h2>
-            <p>Services I offer to my clients</p>
+            <!-- <p>Services I offer to my clients</p> -->
         </div>
 
         <div class="content">
+
+            <div class="servicesBx">
+                <i class="fa fa-code fa-4x"></i>
+                <h3>ML Engineer</h3>
+                <p>I have developed several projects in ML based on vairous algorithms and frameworks. I am also part of ML team in DSC KIIT</p>
+            </div>
+
             <div class="servicesBx">
                 <i class="fa fa-css3 fa-4x"></i>
                 <h3>Web Design CSS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>I have started working as a web developer with a strong commitment towards building some of the best dyanamic and responsive websites.</p>
             </div>
 
             <div class="servicesBx">
                 <i class="fa fa-wordpress fa-4x"></i>
                 <h3>Wordpress Developer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-
-            <div class="servicesBx">
-                <i class="fa fa-amazon fa-4x"></i>
-                <h3>ML Engineer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Services like designing, managing and developing the website using Wordpress can be provided too.</p>
             </div>
 
            <div class="servicesBx">
-                <i class="fa fa-road fa-4x"></i>
-                <h3>AWS Developer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <i class="fa fa-globe fa-4x"></i>
+                <h3>Robotic Process Automation</h3>
+                <p>Building agents that can process and work accordingly automatically on different browsers under different websites.</p>
             </div>
 
-            <!--  <div class="servicesBx">
-                <i class="fa fa-amazon fa-4x"></i>
-                <h3>DEF Devloper</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
 
-            <div class="servicesBx">
-                <i class="fa fa-amazon fa-4x"></i>
-                <h3>GHI Developer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div> -->
 
         </div>
     </section>
 
     <!-- Work Sectoin in HTML -->
 
-    <!-- Testimonial Section in HTML -->
+
+    <!-- <section class="work" id="work">
+        <div class="heading white">
+            <h2>Work</h2>
+        </div>
+        <a class="content" href="projectweb.html" target="_blank">
+            <div class="workBx">
+                <img src="IMG/web.png" alt="Web-Img">
+                <h3>Web Development</h3>
+                <p>List of some of my work/projects under Web Development domain</p>
+            </div>
+            <div class="workBx">
+                <img src="IMG/AI.png" alt="ML-Img">
+                <h3>Machine Learning</h3>
+                <p>List of some of my work/projects under Machine Learning domain</p>
+            </div>
+        </a>
+    </section> -->
+
+    <!-- Projects -->
 
     <section class="work" id="work">
         <div class="heading white">
             <h2>Work</h2>
         </div>
-        <div class="content">
-            <div class="workBx">
-                <p>Praveen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
-                <h3>Richard Wilson<br>Creative Designer</h3>
-            </div>
-            <div class="workBx">
-                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design.  Thanks Praveen</p><h3>Joyce K<br>Web Designer (google)</h3>
+        <div class="workImg">
+            <div class="content">
+                <div class="tiles">
+                 <a href="https://share.streamlit.io/ashish-arya-cs/covdetec/main/CovDetec.py"><h3>Covid Detection using Cough</h3></a>   
+                </div>
+                <div class="tiles">
+                    <a href="https://github.com/anschy/Driver-Drowsiness-Detection"><h3>Driver Drowsiness Detection</h3></a>  
+                </div>
+                <div class="tiles">
+                    <a href="https://github.com/anschy/Cyclone-Detection-Deployed-model"><h3>Cyclone Detection Deployed</h3></a>  
+                </div>
+                <div class="tiles">
+                   <a href="https://devent.netlify.app/"> <h3>DEV ENTERPRISES</h3></a>  
+                </div>
+                <div class="tiles">
+                   <a href="https://skincancer.netlify.app/"> <h3>Skincare</h3></a>
+                </div>
+                <div class="tiles">
+                   <a href="https://www.kaggle.com/anshulchaudhary/heart-attack-prediction-using-deep-learning-ann"> <h3>Prediction of the Heart Attack</h3></a>  
+                </div>
+                <div class="tiles">
+                   <a href="https://github.com/anschy/Face-detection-using-SDD"><h3>Face-detection using SSD</h3></a>  
+                </div>
+                <div class="tiles">
+                   <a href="https://github.com/anschy/Predicting-and-Plotting-Stock-Price-using-LSTM"> <h3>Predicting Google Stock Price</h3></a>  
+                </div>
+                <div class="tiles">
+                   <a href="https://anschy.github.io/rexxen/"> <h3>Rexxen</h3></a>  
+                </div>
+                <div class="tiles">
+                   <a href="https://anschy.github.io/FrontEnd-Challenges/"><h3>Frontend challenges</h3></a>  
+                </div>
             </div>
         </div>
     </section>
+
+
 
     <!-- Contact Section in HTML -->
 
