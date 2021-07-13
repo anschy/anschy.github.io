@@ -235,12 +235,14 @@
 
             <div class="formBx">
                 <!-- <form method='POST' data-netlify="true"> -->
-                <form action="https://formsubmit.co/1828053@kiit.ac.in" method="POST">
+                <form action="https://formsubmit.co/7591e281cbf61ba650bce8a91345debd" method="POST">
                     <h3>Message Me</h3>
                     <input type="text" name="name" required placeholder="Full Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars">
                     <input type="email" placeholder="Email" required name="email" data-rule="email" data-msg="Please enter a valid email">
                     <textarea name="message" id="" rows="5" placeholder="Your Message"></textarea>
                     <input type="submit" value="Send Message" name="submit">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="submitResponse.html">
                 </form>
             </div>
         </div>
